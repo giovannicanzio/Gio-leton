@@ -23,7 +23,7 @@
 
     .container                                  { position: relative; width: 810px; margin: 0 auto; padding: 0; }
     .container .column,
-    .container .columns                         { float: left; display: inline; margin-left: 1%; margin-right: 1%; }
+    .container .columns                         { float: left; display: inline; margin-left: 1.04166%; margin-right: 1.04166%; }
     .row                                        { margin-bottom: 20px; }
 
     /* Nested Column Classes */
@@ -32,42 +32,59 @@
 
     /* Base Grid */
     .container .one.column,
-    .container .one.columns                     { width:  4.1%;  }
-    .container .two.columns                     { width: 10.4%; }
-    .container .three.columns                   { width: 16.6%; }
-    .container .four.columns                    { width: 22.9%; }
-    .container .five.columns                    { width: 29.1%; }
-    .container .six.columns                     { width: 35.4%; }
-    .container .seven.columns                   { width: 41.6%; } 
-    .container .eight.columns                   { width: 47.9%; }
-    .container .nine.columns                    { width: 54.1%; }
-    .container .ten.columns                     { width: 60.4%; }
-    .container .eleven.columns                  { width: 66.6%; }
-    .container .twelve.columns                  { width: 72.9%; }
-    .container .thirteen.columns                { width: 79.1%; }
-    .container .fourteen.columns                { width: 85.4%; }
-    .container .fifteen.columns                 { width: 91.6%; }
-    .container .sixteen.columns                 { width: 97.9%; }
+    .container .one.columns                     { width:  4.16666%;  }
+    .container .two.columns                     { width: 10.41666%; }
+    .container .three.columns                   { width: 16.66666%; }
+    .container .four.columns                    { width: 22.91666%; }
+    .container .five.columns                    { width: 29.16666%; }
+    .container .six.columns                     { width: 35.41666%; }
+    .container .seven.columns                   { width: 41.66666%; } 
+    .container .eight.columns                   { width: 47.91666%; }
+    .container .nine.columns                    { width: 54.16666%; }
+    .container .ten.columns                     { width: 60.41666%; }
+    .container .eleven.columns                  { width: 66.66666%; }
+    .container .twelve.columns                  { width: 72.91666%; }
+    .container .thirteen.columns                { width: 79.16666%; }
+    .container .fourteen.columns                { width: 85.41666%; }
+    .container .fifteen.columns                 { width: 91.66666%; }
+    .container .sixteen.columns                 { width: 97.91666%; }
 
-    .container .one-third.column                { width: 31.2%; }
-    .container .two-thirds.column               { width: 64.5%; }
+    .container .one-third.column                { width: 31.25%; }
+    .container .two-thirds.column               { width: 64.58333%; }
 
     /* Offsets */
-    .container .offset-by-one                   { padding-left:  6.2%; }
+    .container .offset-by-one                   { padding-left:  6.25%; }
     .container .offset-by-two                   { padding-left: 12.5%; }
-    .container .offset-by-three                 { padding-left: 18.7%; }
+    .container .offset-by-three                 { padding-left: 18.75%; }
     .container .offset-by-four                  { padding-left: 25%;   }
-    .container .offset-by-five                  { padding-left: 31.2%; }
+    .container .offset-by-five                  { padding-left: 31.25%; }
     .container .offset-by-six                   { padding-left: 37.5%; }
-    .container .offset-by-seven                 { padding-left: 43.7%; }
+    .container .offset-by-seven                 { padding-left: 43.75%; }
     .container .offset-by-eight                 { padding-left: 50%;   }
-    .container .offset-by-nine                  { padding-left: 56.2%; }
+    .container .offset-by-nine                  { padding-left: 56.25%; }
     .container .offset-by-ten                   { padding-left: 62.5%; }
-    .container .offset-by-eleven                { padding-left: 68.7%; }
+    .container .offset-by-eleven                { padding-left: 68.75%; }
     .container .offset-by-twelve                { padding-left: 75%;   }
-    .container .offset-by-thirteen              { padding-left: 81.2%; }
+    .container .offset-by-thirteen              { padding-left: 81.25%; }
     .container .offset-by-fourteen              { padding-left: 87.5%; }
-    .container .offset-by-fifteen               { padding-left: 93.7%; }
+    .container .offset-by-fifteen               { padding-left: 93.75%; }
+
+    /* Offsets */
+    .container .margin-offset-by-one                   { margin-left:  6.25%; }
+    .container .margin-offset-by-two                   { margin-left: 12.5%; }
+    .container .margin-offset-by-three                 { margin-left: 18.75%; }
+    .container .margin-offset-by-four                  { margin-left: 25%;   }
+    .container .margin-offset-by-five                  { margin-left: 31.25%; }
+    .container .margin-offset-by-six                   { margin-left: 37.5%; }
+    .container .margin-offset-by-seven                 { margin-left: 43.75%; }
+    .container .margin-offset-by-eight                 { margin-left: 50%;   }
+    .container .margin-offset-by-nine                  { margin-left: 56.25%; }
+    .container .margin-offset-by-ten                   { margin-left: 62.5%; }
+    .container .margin-offset-by-eleven                { margin-left: 68.75%; }
+    .container .margin-offset-by-twelve                { margin-left: 75%;   }
+    .container .margin-offset-by-thirteen              { margin-left: 81.25%; }
+    .container .margin-offset-by-fourteen              { margin-left: 87.5%; }
+    .container .margin-offset-by-fifteen               { margin-left: 93.75%; }
 
 /* #Facebook tab optimization
 ================================================= */
@@ -126,6 +143,23 @@
         .container .offset-by-thirteen              { padding-left: 81.2%; }
         .container .offset-by-fourteen              { padding-left: 87.5%; }
         .container .offset-by-fifteen               { padding-left: 93.7%; }
+
+        /* Margin Offsets */
+        .container .margin-offset-by-one                   { margin-left:  6.2%; }
+        .container .margin-offset-by-two                   { margin-left: 12.5%; }
+        .container .margin-offset-by-three                 { margin-left: 18.7%; }
+        .container .margin-offset-by-four                  { margin-left:   25%; }
+        .container .margin-offset-by-five                  { margin-left: 31.2%; }
+        .container .margin-offset-by-six                   { margin-left: 37.5%; }
+        .container .margin-offset-by-seven                 { margin-left: 43.7%; }
+        .container .margin-offset-by-eight                 { margin-left:   50%; }
+        .container .margin-offset-by-nine                  { margin-left: 56.2%; }
+        .container .margin-offset-by-ten                   { margin-left: 62.5%; }
+        .container .margin-offset-by-eleven                { margin-left: 68.7%; }
+        .container .margin-offset-by-twelve                { margin-left:   75%; }
+        .container .margin-offset-by-thirteen              { margin-left: 81.2%; }
+        .container .margin-offset-by-fourteen              { margin-left: 87.5%; }
+        .container .margin-offset-by-fifteen               { margin-left: 93.7%; }
     }
 
 
@@ -157,7 +191,7 @@
         .container .fifteen.columns,
         .container .sixteen.columns,
         .container .one-third.column,
-        .container .two-thirds.column  { width: 100%; }
+        .container .two-thirds.column  { width: 94%; margin-left: 3%; }
 
         /* Offsets */
         .container .offset-by-one,
@@ -207,7 +241,7 @@
         .container .fifteen.columns,
         .container .sixteen.columns,
         .container .one-third.column,
-        .container .two-thirds.column { width: 420px; }
+        .container .two-thirds.column { width: 94%; margin-left: 3%; }
     }
 
 
